@@ -1,0 +1,149 @@
+/* CSS Document */
+
+body {
+ 	background-color: #00004e;
+	margin: 0px;
+	padding: 0px;
+}
+
+#cesaire {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width:663;
+	height:600;
+}
+
+.legende {
+	text-align:center;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:1em;
+	color:#FFFFFF;
+	clear: both;
+}
+
+#cesaire .bouton {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	text-align: center;
+	margin-left: 300px;
+}
+
+#chateau01 {
+	height: 450px;
+	width: 500px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+
+#chateau01 .bouton {
+	margin-left: 220px;
+}
+
+#moyenage  {
+	height: 400px;
+	width: 500px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+
+#moyenage .bouton {
+	margin-left: 220px;
+}
+
+#tour {
+	width:376px;
+	height:625px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+
+#tour  .bouton {
+	margin-left: 160px;
+}
+
+#citadelle {
+	height: 490px;
+	width: 500px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+
+#citadelle .bouton {
+	margin-left: 220px;
+}
+
+#champs01 {
+	height: 680px;
+	width: 500px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+
+#champs01 .bouton {
+	margin-left: 220px;
+}
+
+#champs02 {
+	width:958px;
+	height:600px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+
+#champs02 .bouton {
+	margin-left: 450px;
+}
+
+#barillon01 {
+	width:732px;
+	height:560px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+
+#barillon01 .bouton {
+	margin-left: 330px;
+}
+
+#barillon02 {
+	width:628px;
+	height:590px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+
+#barillon02 .bouton {
+	margin-left: 280px;
+}
+
+#basbourg {
+	width:653px;
+	height:590px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+
+#basbourg .bouton {
+	margin-left: 295px;
+}
+
+#deporte01 {
+	width:782px;
+	height:620px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+
+#deporte01 .bouton {
+	margin-left: 360px;
+}

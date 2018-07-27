@@ -1,0 +1,217 @@
+/* CSS Document 
+
+Ces éléments n'apparaissent que dans les pages avec un seule 
+colonne
+*/
+#corpsLong {
+	width:770px;
+	margin-left:5px;
+	background:url(../images/noel/BoxLongCenter.jpg) repeat-y;
+}
+
+#longHaut {
+	width: 770px;
+	height: 94px;
+	background:url(../images/noel/BoxLongTop.jpg) no-repeat;
+}
+
+#longMilieu {
+	width: 770px;
+}
+
+#longBas {
+	width: 770px;
+	height: 50px;
+	background:url(../images/noel/BoxLongFoot.jpg) no-repeat;
+}
+
+#ident {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:0.9em;
+	color:#000000;
+	line-height: 1.2em;
+	word-spacing: 0.3em;
+	letter-spacing: 0.2em;
+	text-align: left;
+	margin-left:100px;
+	width:570px;
+}
+
+#longHaut img {
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #000000;
+	border-right-color: #666666;
+	border-bottom-color: #666666;
+	border-left-color: #000000;
+	float: left;
+	margin-top: 30px;
+	margin-left: 40px;
+	margin-right: 15px;
+}
+
+#membMenu {
+	font-size: 0.8em;
+	margin-left:25px;
+	margin-bottom:25px;
+	width:190px;
+	float:left;
+	border-right-width:1px;
+	border-right-color:#006600;
+	padding-right:5px;
+}
+
+#membMenu ul {list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#membMenu a {
+	text-decoration:none;
+	color:#00a3ff;
+}
+
+#membMenu a:hover, #membMenu a.LeChoix {
+	text-decoration:none;
+	color:#007800;
+}
+
+#membMenu td.HeadT {
+	font-weight:bold;
+}
+#membMenu td.MenuL {
+	font-size:0.9em;
+	text-align: right;
+}
+
+p.connexion {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:0.9em;
+	line-height: 1em;
+	word-spacing: 0;
+	letter-spacing: 0;
+}
+
+#mainMemb {
+	width:490px;
+	margin-left:230px;
+}
+
+#mainMemb p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:0.9em;
+	color:#000000;
+	line-height: 1.1em;
+	word-spacing: 0.2em;
+	letter-spacing: 0.1em;
+	text-align: left;
+	padding-left:0px;
+	padding-right:10px;
+}
+
+span.sstitre {
+	font-size:1.2em;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#8D6436;
+}
+
+td.photo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:0.9em;
+	color:#000000;
+	line-height: 1.1em;
+	word-spacing: 0.2em;
+	letter-spacing: 0.1em;
+}
+
+td.ferme {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:0.7em;
+	color:#000000;
+}
+
+span.entd{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:1.6em;
+	color:#000000;
+	line-height: 1.1em;
+	word-spacing: 0.2em;
+	letter-spacing: 0.1em;
+}
+
+td.option{
+	font-family:"Times New Roman", Times, serif;
+	font-size:0.6em;
+	color:#660000;
+	line-height: 1.1em;
+	word-spacing: 0.2em;
+	letter-spacing: 0.1em;
+}
+
+td.miniphoto {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:0.7em;
+	color:#000000;
+	line-height: 1.1em;
+	word-spacing: 0.2em;
+	letter-spacing: 0.1em;
+}
+#longMilieu table.nosliens {
+	margin-left:25px;
+	font-family:  Georgia, "Times New Roman", Times, serif;
+	text-align:center;
+	font-size: 0.8em;
+	color: #006600;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-right: 25px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+
+#longMilieu a.inLien {
+	font-weight:700;
+	color:#00a3ff;
+	text-decoration:none;
+}
+
+#longMilieu a.inLien:hover {
+	text-decoration:underline;
+	color:#0000FF;
+}
+
+#longMilieu table.commer {
+	margin-left:25px;
+	font-family:  Georgia, "Times New Roman", Times, serif;
+	text-align:left;
+	font-size: 0.9em;
+}
+
+#longMilieu table.commer td {
+	padding-left:15px;
+	padding-bottom:5px;
+	padding-top:5px;
+}
+
+#longMilieu table.commer td.d1 {
+	font-weight:bold;
+	color:#006699;
+}
+
+#longMilieu table.commer td.d3 {
+	font-weight:normal;
+	color:#000000;
+}
+
+table.view {
+	background-color:#FFFFCC;
+	border:#000099;
+	color:#000000;
+}

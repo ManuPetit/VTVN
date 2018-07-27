@@ -1,0 +1,200 @@
+/* Document css site VieuxNyons.com
+
+Eléments communs à toutes les pages du site
+fichiers séparés pour éléments non communs
+
+*/
+body {
+	margin:0;
+	padding:0;
+	background-color:#62733f;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+#conteneur {
+	position:relative;
+	width:780px;
+	margin:0 auto;
+}
+
+#haut {
+	margin-top:10px;
+	height:280px;
+}
+
+#enteteGauche {
+	height: 280px;
+	width: 51px;
+	float: left;
+	background-image: url(../images/css1/enteteGauche.jpg);
+	background-repeat: no-repeat;
+}
+
+#enteteDroit {
+	width:290px;
+	height:280px;
+	float: left;
+	background-image: url(../images/css1/enteteDroit.jpg);
+	background-repeat: no-repeat;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	color: #FFFFFF;
+	text-align:right;
+}
+
+#menuHaut {
+	width: 780px;
+	height:80px;
+	background-image: url(../images/css1/EnteteBas.jpg);
+}
+
+/*Menu Tab Section*/
+/*Credits: Dynamic Drive CSS Library */
+/*URL: http://www.dynamicdrive.com/style/ */
+#thicktabs{
+	margin: 0;
+	margin-left:20px;
+	padding: 0;
+	padding-top:10px;
+	float: left;
+	font: bold 0.9em Tahoma;
+}
+
+#thicktabs li{
+	display: inline;
+}
+
+#thicktabs li a{
+	float: left;
+	color: #73623f;
+	padding: 8px 11px;
+	text-decoration: none;
+	background: transparent url(../images/css1/vertpale.gif) top right no-repeat;
+	border-top: 1px solid #bfa369; 
+	border-bottom: 3px solid #6d6122; 
+}
+
+#thicktabs li a#leftmostitem{
+	border-left: 1px solid #bfa369;
+}
+
+#thicktabs li a#rightmostitem{ 
+	border-right: 1px solid #bfa369; 
+	background-position: top left; 
+}
+
+#thicktabs li a:visited{
+	color: #73623f;
+}
+
+#thicktabs li a:hover{
+	color: #734c0e;
+	background-image: url(../images/css1/vertsombre.gif); 
+}
+
+#thicktabs li a.selected{
+	color: #734c0e;
+	background-image: url(../images/css1/vertsombre.gif); 
+}
+
+h2 {
+	font-size:1.4em;
+	color:#6C4124;
+	padding-left:40px;
+	padding-top:40px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:0.8em;
+	color:#000000;
+	line-height: 1.2em;
+	word-spacing: 0.3em;
+	letter-spacing: 0.2em;
+	text-align: left;
+	padding-left:30px;
+	padding-right:50px;
+	padding-top:0;
+	margin-top:0;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+
+#pied {
+	height:40px;
+	background-color: #617e51;
+	text-align: center;
+	font-variant: normal;
+	color: #73623f;
+	padding-top: 5px;
+	font-weight: bold;
+	text-transform: capitalize;
+	border: 4px #bfa369 solid;
+	border-left: none;
+	border-right: none;
+	clear:both;
+}
+
+#droite a.inLien, #corpsLong a.inLien {
+	font-weight:700;
+	color:#660000;
+	text-decoration:none;
+}
+#droite a.event, #corpsLong a.event {
+	color:#0000FF;
+	text-decoration:none;
+}
+#droite a:hover, #corpsLong a:Hover {
+	text-decoration:underline;
+	color:#0000FF;
+}
+#menubas {
+	margin: 0;
+	white-space: nowrap;
+	padding-top: 10px;
+	padding-right: 0;
+	padding-bottom: 10;
+	padding-left: 0;
+}
+#menubas li {
+	display:inline;
+	list-style-type: none;
+}
+#menubas a, #menubas a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	font-weight:bold;
+	color:#592231;
+	background-color: #C1D59B;
+	padding: 3px 10px;
+	text-decoration: none;
+}
+#menubas a.choisi,#menubas a:hover {
+	color: #ffffff;
+	background-color: #998254;
+	text-decoration: none;
+}
+
+img.liens {
+	cursor: pointer;
+	cursor:hand;
+}
+p.intro {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	color: #FFFFFF;
+	text-align:right;
+}
+#iiidees {
+	font-size:0.7em;
+	color:#FFF;
+}
+a.lid:active, a.lid:visited, a.lid:link {
+	text-decoration:none;
+	color:#FF0;
+}
+a.lid:hover {
+	text-decoration:underline;
+	color:#0CF;
+}

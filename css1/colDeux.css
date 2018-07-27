@@ -1,0 +1,157 @@
+/* CSS Document  
+
+Ces éléments n'apparaissent que dans les pages avec deux 
+colonnes
+*/
+#corps {
+	width:770px;
+	margin-left:5px;
+}
+
+#gauche {
+	position:absolute;
+	left:0;
+	width:220px;
+	background:url(../images/css1/SmallBackBoxV2.jpg) repeat-y;
+}
+
+#droite {
+	margin-left:225px;
+	width:545px;
+}
+
+div.petitHaut {
+	width: 220px;
+	height: 94px;
+	background:url(../images/css1/SmallTopBoxV2.jpg) no-repeat;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: 700;
+	font-size:1.2em;
+	color:#73623F;
+	padding-left:40px;
+	padding-top:40px;
+	margin-bottom:-40px;
+}
+
+div.petitMilieu {
+	width:220px;
+	padding-left:40px;
+}
+
+div.petitBas {
+	width:220px;
+	height:50px;
+	background:url(../images/css1/SmallBottomBoxV2.jpg) no-repeat;
+}
+
+div.moyenHaut {
+	width:545px;
+	height:94px;
+	background:url(../images/css1/MediumTopBoxV2.jpg) no-repeat;
+}
+
+div.moyenMilieu {
+	width:545px;
+	background:url(../images/css1/MediumBackBoxV2.jpg) repeat-y;
+	text-align:center;
+}
+
+div.moyenBas {
+	width:545px;
+	height:50px;
+	background:url(../images/css1/MediumBottomBoxV2.jpg) no-repeat;
+}
+	
+#gauche ul {list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#gauche a:link, #gauche a:visited, #gauche a:active {
+	font-size:0.9em;
+	color:#BFA369;
+	text-decoration:none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 900;
+}
+
+#gauche a:hover, #gauche a.choix {
+	color:#62733f;
+	font-size:0.9em;
+	text-decoration:none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 900;
+}
+
+div.moyenMilieu img {
+	border:none;
+	padding:10px;
+}
+
+div.moyenMilieu p.t2 {
+	font-family:  Georgia, "Times New Roman", Times, serif;
+	text-align:center;
+	font-size: 0.8em;
+	color: #003399;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-right: 25px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+
+div.moyenMilieu p.t3 {
+	font-family:  Georgia, "Times New Roman", Times, serif;
+	text-align:right;
+	font-size: 0.8em;
+	color: #003399;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-right: 25px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+
+div.moyenMilieu table.descrip {
+	margin-left:25px;
+}
+
+div.moyenMilieu table.descrip td.d1 {
+	font:Verdana, Arial, Helvetica, sans-serif;
+	font-size:0.9em;
+	color:#003399;
+}
+
+div.moyenMilieu table.descrip td.d2 {
+	font:"Times New Roman", Times, serif;
+	color:#660000;
+	font-size:1em;
+	font-weight:bold;
+}
+
+div.moyenMilieu table.descrip td.d3 {
+	font:Arial, Helvetica, sans-serif;
+	font-size:0.9em;
+}
+
+div.moyenMilieu table.descrip td.d4 {
+	color:#006600;
+}
+
+div.moyenMilieu table.commer {
+	margin-left:25px;
+}
+
+div.moyenMilieu table.commer td.d1 {
+	font:Arial, Helvetica, sans-serif;
+	color:#660033;
+	font-weight:bold;
+	font-size:0.9em;
+	vertical-align: top;
+}
+
+div.moyenMilieu table.commer td.d3 {
+	font:Arial, Helvetica, sans-serif;
+	font-size:0.9em;
+	vertical-align: top;
+}
